@@ -11,6 +11,7 @@ textarea{
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  text-align: center;
 }
 
 .jumbotron {
@@ -36,7 +37,15 @@ textarea{
   border-top: 1px solid white;;
 }
 
-.hour {
+time.hour9,
+time.hour10,
+time.hour11,
+time.hour12,
+time.hour13,
+time.hour14,
+time.hour15,
+time.hour16,
+time.hour17 {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
@@ -57,15 +66,40 @@ textarea{
   color: white;
 }
 
+.currentDay {
+  color: #000000;
+  margin: 0;
+  font-size: 1.3rem;
+}
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
-  color: white;
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  background-color: aqua;
 }
 
-.saveBtn i:hover {
-  font-size: 20px;
+
+.container {
+  height: 500px;
+  width: 100%;
+
+
+}
+
+.card {
+  height: 50px;
+}
+
+.saveIcon {
+  margin-right: 30px;
+  padding: 0;
+}
+
+.saveBtn:hover {
+  background-color: royalblue;
   transition: all .3s ease-in-out;
 }
