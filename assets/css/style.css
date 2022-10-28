@@ -103,3 +103,16 @@ time.hour17 {
   background-color: royalblue;
   transition: all .3s ease-in-out;
 }
+
+#clearEvents {
+  margin-top: 50px;
+  border-radius: 15px;
+  padding: 20px;
+  border-color: aqua;
+  color: #ff6961;
+}
+
+#clearEvents:hover {
+  padding: 30px;
+  color: blueviolet;
+}
